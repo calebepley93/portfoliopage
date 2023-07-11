@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 508 443"
+   fill="none"
+   version="1.1"
+   id="svg273"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <path
+     d="M383.313 50.2979C431.117 69.9492 490.243 89.6005 504.081 126.367C517.919 162.5 486.469 215.115 465.712 268.364C444.326 321.612 433.633 375.495 400.925 406.556C368.846 437.618 314.752 446.493 264.432 440.788C214.74 435.716 168.823 416.065 122.277 388.807C76.3601 362.183 29.814 328.585 10.9439 282.944C-7.92613 237.302 0.879905 179.616 22.895 131.439C44.91 82.6274 80.1341 42.691 122.277 21.7719C163.791 0.218896 212.224 -2.95067 254.997 4.65627C297.769 12.2632 334.88 31.2806 383.313 50.2979Z"
+     fill="url(#paint0_linear_71:15)"
+     id="path233" />
+  <g
+     filter="url(#filter0_d_71:15)"
+     id="g247">
+    <rect
+       x="37.157"
+       y="78.8663"
+       width="433.001"
+       height="286.425"
+       rx="10"
+       fill="#313133"
+       id="rect235" />
+    <path
+       d="M37.157 88.8663C37.157 83.3434 41.6341 78.8663 47.157 78.8663H460.158C465.681 78.8663 470.158 83.3435 470.158 88.8663V93.9413H37.157V88.8663Z"
+       fill="#575757"
+       id="path237" />
+    <ellipse
+       cx="47.3915"
+       cy="86.0071"
+       rx="3.93641"
+       ry="3.9671"
+       fill="#DF5B5B"
+       id="ellipse239" />
+    <ellipse
+       cx="59.2006"
+       cy="86.0071"
+       rx="3.93641"
+       ry="3.9671"
+       fill="#CBC270"
+       id="ellipse241" />
+    <ellipse
+       cx="71.0097"
+       cy="86.0071"
+       rx="3.93637"
+       ry="3.9671"
+       fill="#91D68B"
+       id="ellipse243" />
+    <path
+       class="home-hero-svg-blink"
+       d="M123.157 109.101H135.157V132.28H123.157V109.101Z"
+       fill="#3287f5"
+       id="path245" />
+  </g>
+  <defs
+     id="defs271">
+    <filter
+       id="filter0_d_71:15"
+       x="33.157"
+       y="78.8663"
+       width="441.001"
+       height="294.425"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood249" />
+      <feColorMatrix
+         in="SourceAlpha"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix251" />
+      <feOffset
+         dy="4"
+         id="feOffset253" />
+      <feGaussianBlur
+         stdDeviation="2"
+         id="feGaussianBlur255" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite257" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+         id="feColorMatrix259" />
+      <feBlend
+         mode="normal"
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_71:15"
+         id="feBlend261" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="effect1_dropShadow_71:15"
+         result="shape"
+         id="feBlend263" />
+    </filter>
+    <linearGradient
+       id="paint0_linear_71:15"
+       x1="0.627319"
+       y1="442.409"
+       x2="437.948"
+       y2="-59.6582"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#3287f5"
+         id="stop266" />
+      <stop
+         offset="1"
+         stop-color="#58a6ff"
+         id="stop268" />
+    </linearGradient>
+  </defs>
+  <text
+     xml:space="preserve"
+     style="font-size:26.6667px;fill:#000000"
+     x="58.222858"
+     y="135.00952"
+     id="text333"><tspan
+       id="tspan331"
+       x="58.222858"
+       y="135.00952" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:21.3333px;fill:#000000"
+     x="51.472382"
+     y="133.3219"
+     id="text337"><tspan
+       id="tspan335"
+       x="51.472382"
+       y="133.3219"
+       style="font-size:21.3333px" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:21.3333px;fill:#000000"
+     x="54.847618"
+     y="134.16571"
+     id="text341"><tspan
+       id="tspan339"
+       x="54.847618"
+       y="134.16571" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:21.3333px;fill:#000000"
+     x="54.003811"
+     y="127.41524"
+     id="text345"><tspan
+       id="tspan343"
+       x="54.003811"
+       y="127.41524" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:21.3333px;fill:#000000"
+     x="54.847618"
+     y="132.4781"
+     id="text349"><tspan
+       id="tspan347"
+       x="54.847618"
+       y="132.4781" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:21.3333px;fill:#000000"
+     x="50.628571"
+     y="129.10286"
+     id="text353"><tspan
+       id="tspan351"
+       x="50.628571"
+       y="129.10286"
+       style="fill:#3287f5;fill-opacity:1">caleb$</tspan></text>
+</svg>

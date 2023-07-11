@@ -1,0 +1,115 @@
+:root {
+    --background: #4B4A56;
+    --dark-background: #3F3E46;
+    --project: #656573;
+    --vibrant-blue: #3287f5;
+    --light-blue: #58a6ff;
+    --dark-text: #b5b5b5;
+    --white: #f6f6f6;
+    --footer: #313133;
+    --big-margin-left: 15%;
+    --big-margin-right: 15%;
+    --med-margin-right: 10%;
+    --med-margin-left: 10%;
+    --small-margin-left: 7%;
+    --small-margin-right: 7%;
+    --big-padding-top: 48px;
+    --big-padding-bottom: 48px;
+    --small-padding-top: 16px;
+    --small-padding-bottom: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
+}
+
+.technologies {
+    background-color: var(--background);
+    width: 100%;
+}
+
+.technologies-container {
+    margin-right: var(--big-margin-right);
+    margin-left: var(--big-margin-left);
+    padding-bottom: var(--big-padding-bottom);
+    display: flex;
+    flex-direction: column;
+}
+
+/* repeats */
+
+.about-me-header {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: var(--white);
+}
+
+.section-spanner {
+    background: linear-gradient(90deg, #3287f5, #58a6ff);
+    height: 5px;
+    width: 72px;
+    display: block;
+    border-radius: 50px;
+}
+
+/* repeats  */
+
+.tech-icon-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.tech-icon {
+    object-fit: cover;
+    width: 100%;
+}
+
+.tech-icon svg {
+    width: 200px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .tech-icon-container {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        align-self: center;
+        margin-top: 0;
+    }
+
+    .technologies-container {
+        margin-right: var(--med-margin-right);
+        margin-left: var(--med-margin-left);
+    }
+}
+
+@media screen and (max-width: 499px) {
+ 
+    .technologies-container {
+        margin-right: var(--small-margin-right);
+        margin-left: var(--small-margin-left);
+    }
+}

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb Epley - Web Developer</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+</head>
+<body>
+    <header class="page-header">
+        <nav class="header-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="">Home</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#projects">Projects</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger-menu">
+                <div class="hamburger-menu__line line-1"></div>
+                <div class="hamburger-menu__line line-2"></div>
+                <div class="hamburger-menu__line line-3"></div>
+            </div>
+        </nav>
+    </header>
+    <div id="overlay-menu" class="overlay-menu">
+        <ul class="overlay-menu__list">
+            <li class="overlay-menu-item"><a href="#home">Home</a></li> 
+            <li class="overlay-menu-item"><a href="#about">About</a></li>
+            <li class="overlay-menu-item"><a href="#projects">Projects</a></li>
+            <li class="overlay-menu-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <section class="hero-section">
+        <div class="hero-grid-container">
+            <div class="hero-text-container">
+                <p class="hero-text">Hey there, my name is</p>
+                <p class="hero-text">Caleb Epley</p>
+                <p class="hero-text">and I'm a web developer</p>
+                <div class="icon-flex">
+                    <a href="#" class="resume-button">View Resume</a>
+                    <a class="home-hero-icon" rel="noreferrer" href="https://github.com/zjones95" target="_blank">
+                        <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5 0C7.38375 0 0 7.38375 0 16.5C0 23.8012 4.72312 29.9681 11.2819 32.1544C12.1069 32.2987 12.4162 31.8037 12.4162 31.3706C12.4162 30.9787 12.3956 29.6794 12.3956 28.2975C8.25 29.0606 7.1775 27.2869 6.8475 26.3587C6.66188 25.8844 5.8575 24.42 5.15625 24.0281C4.57875 23.7187 3.75375 22.9556 5.13562 22.935C6.435 22.9144 7.36312 24.1312 7.6725 24.6262C9.1575 27.1219 11.5294 26.4206 12.4781 25.9875C12.6225 24.915 13.0556 24.1931 13.53 23.7806C9.85875 23.3681 6.0225 21.945 6.0225 15.6337C6.0225 13.8394 6.66188 12.3544 7.71375 11.1994C7.54875 10.7869 6.97125 9.09562 7.87875 6.82687C7.87875 6.82687 9.26062 6.39375 12.4162 8.51812C13.7362 8.14687 15.1388 7.96125 16.5413 7.96125C17.9438 7.96125 19.3463 8.14687 20.6663 8.51812C23.8219 6.37312 25.2038 6.82687 25.2038 6.82687C26.1112 9.09562 25.5338 10.7869 25.3688 11.1994C26.4206 12.3544 27.06 13.8187 27.06 15.6337C27.06 21.9656 23.2031 23.3681 19.5319 23.7806C20.13 24.2962 20.6456 25.2862 20.6456 26.8331C20.6456 29.04 20.625 30.8137 20.625 31.3706C20.625 31.8037 20.9344 32.3194 21.7594 32.1544C25.0349 31.0485 27.8811 28.9433 29.8975 26.1351C31.914 23.3269 32.999 19.9571 33 16.5C33 7.38375 25.6163 0 16.5 0Z" fill="url(#paint0_linear_71:52)"></path><defs><linearGradient id="paint0_linear_71:52" x1="16.5" y1="0" x2="16.5" y2="32.1859" gradientUnits="userSpaceOnUse"><stop stop-color="#3287f5"></stop><stop offset="1" stop-color="#58a6ff"></stop></linearGradient></defs>
+                        </svg>
+                    </a>
+                    <a class="home-hero-icon" rel="noreferrer" href="https://linkedin.com/in/zacharie-jones" target="_blank"><svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.375 3.90225C1.375 3.23198 1.64126 2.58917 2.11521 2.11521C2.58917 1.64126 3.23198 1.375 3.90225 1.375H29.095C29.4272 1.37446 29.7562 1.43944 30.0632 1.56622C30.3702 1.693 30.6492 1.87909 30.8842 2.11384C31.1192 2.34859 31.3056 2.62738 31.4327 2.93426C31.5598 3.24114 31.6252 3.57008 31.625 3.90225V29.095C31.6254 29.4272 31.5602 29.7563 31.4333 30.0633C31.3064 30.3703 31.1201 30.6493 30.8853 30.8843C30.6504 31.1193 30.3715 31.3057 30.0646 31.4328C29.7576 31.5599 29.4286 31.6252 29.0964 31.625H3.90225C3.57025 31.625 3.24151 31.5596 2.9348 31.4325C2.62809 31.3054 2.34942 31.1191 2.11473 30.8843C1.88003 30.6495 1.69391 30.3707 1.56698 30.0639C1.44006 29.7572 1.37482 29.4284 1.375 29.0964V3.90225ZM13.3485 12.9085H17.4446V14.9655C18.0359 13.783 19.5484 12.7188 21.8212 12.7188C26.1786 12.7188 27.2113 15.0741 27.2113 19.3958V27.401H22.8016V20.3802C22.8016 17.919 22.2104 16.5303 20.7089 16.5303C18.6257 16.5303 17.7595 18.0276 17.7595 20.3802V27.401H13.3485V12.9085ZM5.786 27.2126H10.197V12.7188H5.786V27.2113V27.2126ZM10.8281 7.9915C10.8364 8.36917 10.7692 8.74471 10.6305 9.09606C10.4917 9.44741 10.2841 9.7675 10.0199 10.0375C9.75578 10.3076 9.44034 10.5221 9.09213 10.6686C8.74392 10.8151 8.36995 10.8906 7.99219 10.8906C7.61442 10.8906 7.24046 10.8151 6.89225 10.6686C6.54404 10.5221 6.2286 10.3076 5.96443 10.0375C5.70027 9.7675 5.4927 9.44741 5.35392 9.09606C5.21514 8.74471 5.14793 8.36917 5.15625 7.9915C5.17257 7.25017 5.47853 6.54471 6.00859 6.02619C6.53866 5.50767 7.25068 5.21732 7.99219 5.21732C8.73369 5.21732 9.44572 5.50767 9.97578 6.02619C10.5058 6.54471 10.8118 7.25017 10.8281 7.9915Z" fill="url(#paint0_linear_71:55)"></path><defs><linearGradient id="paint0_linear_71:55" x1="16.5" y1="1.375" x2="16.5" y2="31.625" gradientUnits="userSpaceOnUse"><stop stop-color="#3287f5"></stop><stop offset="1" stop-color="#58a6ff"></stop></linearGradient></defs></svg></a>
+                </div>
+            </div>
+            <div class="hero-svg-container">
+                <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 508 443"
+   fill="none"
+   version="1.1"
+   id="svg273"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <path
+     d="M383.313 50.2979C431.117 69.9492 490.243 89.6005 504.081 126.367C517.919 162.5 486.469 215.115 465.712 268.364C444.326 321.612 433.633 375.495 400.925 406.556C368.846 437.618 314.752 446.493 264.432 440.788C214.74 435.716 168.823 416.065 122.277 388.807C76.3601 362.183 29.814 328.585 10.9439 282.944C-7.92613 237.302 0.879905 179.616 22.895 131.439C44.91 82.6274 80.1341 42.691 122.277 21.7719C163.791 0.218896 212.224 -2.95067 254.997 4.65627C297.769 12.2632 334.88 31.2806 383.313 50.2979Z"
+     fill="url(#paint0_linear_71:15)"
+     id="path233" />
+  <g
+     filter="url(#filter0_d_71:15)"
+     id="g247">
+    <rect
+       x="37.157"
+       y="78.8663"
+       width="433.001"
+       height="286.425"
+       rx="10"
+       fill="#313133"
+       id="rect235" />
+    <path
+       d="M37.157 88.8663C37.157 83.3434 41.6341 78.8663 47.157 78.8663H460.158C465.681 78.8663 470.158 83.3435 470.158 88.8663V93.9413H37.157V88.8663Z"
+       fill="#575757"
+       id="path237" />
+    <ellipse
+       cx="47.3915"
+       cy="86.0071"
+       rx="3.93641"
+       ry="3.9671"
+       fill="#DF5B5B"
+       id="ellipse239" />
+    <ellipse
+       cx="59.2006"
+       cy="86.0071"
+       rx="3.93641"
+       ry="3.9671"
+       fill="#CBC270"
+       id="ellipse241" />
+    <ellipse
+       cx="71.0097"
+       cy="86.0071"
+       rx="3.93637"
+       ry="3.9671"
+       fill="#91D68B"
+       id="ellipse243" />
+    <path
+       class="home-hero-svg-blink"
+       d="M123.157 109.101H135.157V132.28H123.157V109.101Z"
+       fill="#3287f5"
+       id="path245" />
+  </g>
+  <defs
+     id="defs271">
+    <filter
+       id="filter0_d_71:15"
+       x="33.157"
+       y="78.8663"
+       width="441.001"
+       height="294.425"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood249" />
+      <feColorMatrix
+         in="SourceAlpha"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix251" />
+      <feOffset
+         dy="4"
+         id="feOffset253" />
+      <feGaussianBlur
+         stdDeviation="2"
+         id="feGaussianBlur255" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite257" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+         id="feColorMatrix259" />
+      <feBlend
+         mode="normal"
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_71:15"
+         id="feBlend261" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="effect1_dropShadow_71:15"
+         result="shape"
+         id="feBlend263" />
+    </filter>
+    <linearGradient
+       id="paint0_linear_71:15"
+       x1="0.627319"
+       y1="442.409"
+       x2="437.948"
+       y2="-59.6582"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#3287f5"
+         id="stop266" />
+      <stop
+         offset="1"
+         stop-color="#58a6ff"
+         id="stop268" />
+    </linearGradient>
+  </defs>
+  <text
+     xml:space="preserve"
+     style="font-size:26.6667px;fill:#000000"
+     x="58.222858"
+     y="135.00952"
+     id="text333"><tspan
+       id="tspan331"
+       x="58.222858"
+       y="135.00952" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:21.3333px;fill:#000000"
+     x="51.472382"
+     y="133.3219"
+     id="text337"><tspan
+       id="tspan335"
+       x="51.472382"
+       y="133.3219"
+       style="font-size:21.3333px" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:21.3333px;fill:#000000"
+     x="54.847618"
+     y="134.16571"
+     id="text341"><tspan
+       id="tspan339"
+       x="54.847618"
+       y="134.16571" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:21.3333px;fill:#000000"
+     x="54.003811"
+     y="127.41524"
+     id="text345"><tspan
+       id="tspan343"
+       x="54.003811"
+       y="127.41524" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:21.3333px;fill:#000000"
+     x="54.847618"
+     y="132.4781"
+     id="text349"><tspan
+       id="tspan347"
+       x="54.847618"
+       y="132.4781" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:21.3333px;fill:#000000"
+     x="50.628571"
+     y="129.10286"
+     id="text353"><tspan
+       id="tspan351"
+       x="50.628571"
+       y="129.10286"
+       style="fill:#3287f5;fill-opacity:1">caleb$</tspan></text>
+</svg>
+            </div>
+        </div>
+    </section>
+    <section class="card-container">
+      <div class="card-content-container">
+          <div class="home-card">
+              <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="36" cy="36" r="36" fill="#3287f5"></circle><path d="M57.875 35.5833C57.875 27.8509 53.0625 21.2343 46.2354 18.4689L42.25 26.3333V15.5417C42.25 15.1328 42.0854 14.7407 41.7924 14.4515C41.4993 14.1624 41.1019 14 40.6875 14H31.3125C30.8981 14 30.5007 14.1624 30.2076 14.4515C29.9146 14.7407 29.75 15.1328 29.75 15.5417V26.3333L25.7646 18.4689C18.9375 21.2343 14.125 27.8509 14.125 35.5833V41.75H57.875V35.5833ZM59.4375 44.8333H12.5625C12.1481 44.8333 11.7507 44.9958 11.4576 45.2849C11.1646 45.574 11 45.9661 11 46.375V49.4583C11 49.8672 11.1646 50.2593 11.4576 50.5485C11.7507 50.8376 12.1481 51 12.5625 51H59.4375C59.8519 51 60.2493 50.8376 60.5424 50.5485C60.8354 50.2593 61 49.8672 61 49.4583V46.375C61 45.9661 60.8354 45.574 60.5424 45.2849C60.2493 44.9958 59.8519 44.8333 59.4375 44.8333Z" fill="#4B4A56"></path></svg>
+              <h3 class="skill-title">Versatile Problem Solver</h3>
+              <p class="skill-description">My diverse career experience allows me to understand multiple facets of your business needs and bring solutions to your problems.</p>
+          </div>
+          <div class="home-card">
+              <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="36" cy="36" r="36" fill="#3287f5"></circle><path d="M44.0963 15.8501C44.1575 15.6513 44.1788 15.4425 44.1593 15.2355C44.1397 15.0285 44.0795 14.8273 43.9822 14.6436C43.8849 14.4598 43.7523 14.297 43.5921 14.1645C43.4318 14.032 43.2471 13.9323 43.0483 13.8712C42.8496 13.8101 42.6407 13.7887 42.4337 13.8083C42.2267 13.8279 42.0256 13.888 41.8418 13.9854C41.6581 14.0827 41.4953 14.2152 41.3628 14.3755C41.2302 14.5357 41.1306 14.7205 41.0694 14.9192L28.4045 56.0802C28.2811 56.4816 28.3221 56.9156 28.5187 57.2867C28.7152 57.6579 29.0511 57.9357 29.4525 58.0591C29.8539 58.1826 30.2879 58.1415 30.659 57.945C31.0301 57.7484 31.308 57.4125 31.4314 57.0111L44.0963 15.8501ZM26.2895 23.7625C26.4369 23.9096 26.5539 24.0843 26.6337 24.2766C26.7135 24.4689 26.7546 24.6751 26.7546 24.8833C26.7546 25.0916 26.7135 25.2978 26.6337 25.4901C26.5539 25.6824 26.4369 25.8571 26.2895 26.0042L16.3253 35.9652L26.2895 45.9261C26.5867 46.2234 26.7537 46.6266 26.7537 47.047C26.7537 47.4674 26.5867 47.8706 26.2895 48.1678C25.9922 48.4651 25.589 48.6321 25.1686 48.6321C24.7482 48.6321 24.345 48.4651 24.0478 48.1678L12.966 37.086C12.8185 36.9389 12.7016 36.7642 12.6217 36.5719C12.5419 36.3796 12.5009 36.1734 12.5009 35.9652C12.5009 35.7569 12.5419 35.5507 12.6217 35.3584C12.7016 35.1661 12.8185 34.9914 12.966 34.8443L24.0478 23.7625C24.1948 23.6151 24.3695 23.4981 24.5619 23.4183C24.7542 23.3385 24.9604 23.2974 25.1686 23.2974C25.3768 23.2974 25.583 23.3385 25.7754 23.4183C25.9677 23.4981 26.1424 23.6151 26.2895 23.7625ZM46.2114 23.7625C46.064 23.9096 45.947 24.0843 45.8672 24.2766C45.7874 24.4689 45.7463 24.6751 45.7463 24.8833C45.7463 25.0916 45.7874 25.2978 45.8672 25.4901C45.947 25.6824 46.064 25.8571 46.2114 26.0042L56.1755 35.9652L46.2114 45.9261C46.0642 46.0733 45.9474 46.2481 45.8678 46.4404C45.7881 46.6327 45.7471 46.8388 45.7471 47.047C45.7471 47.2551 45.7881 47.4613 45.8678 47.6536C45.9474 47.8459 46.0642 48.0206 46.2114 48.1678C46.3586 48.315 46.5333 48.4318 46.7256 48.5114C46.918 48.5911 47.1241 48.6321 47.3322 48.6321C47.5404 48.6321 47.7465 48.5911 47.9388 48.5114C48.1312 48.4318 48.3059 48.315 48.4531 48.1678L59.5349 37.086C59.6823 36.9389 59.7993 36.7642 59.8791 36.5719C59.9589 36.3796 60 36.1734 60 35.9652C60 35.7569 59.9589 35.5507 59.8791 35.3584C59.7993 35.1661 59.6823 34.9914 59.5349 34.8443L48.4531 23.7625C48.306 23.6151 48.1313 23.4981 47.939 23.4183C47.7467 23.3385 47.5405 23.2974 47.3322 23.2974C47.124 23.2974 46.9178 23.3385 46.7255 23.4183C46.5331 23.4981 46.3584 23.6151 46.2114 23.7625Z" fill="#4B4A56"></path></svg>
+              <h3 class="skill-title">Well-Rounded Developer</h3>
+              <p class="skill-description">With a thorough understanding of HTML, CSS, Javascript, and PHP, I can help solve a wide variety of issues on the modern web. </p>
+          </div>
+          <div class="home-card">
+              <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="36" cy="36" r="36" fill="#3287f5"></circle><path d="M28.6801 40.1881C25.154 40.4148 21.9539 41.7578 20.1382 46.5426C19.9316 47.0884 19.4351 47.4197 18.8559 47.4197C17.8794 47.4197 14.8604 44.9878 14 44.4007C14.0009 51.6385 17.3345 58 25.2507 58C31.9179 58 36.5004 54.153 36.5004 47.4364C36.5004 47.1631 36.4433 46.9021 36.4152 46.634L28.6801 40.1881ZM54.2443 13C52.9119 13 51.663 13.5897 50.7103 14.4458C32.7449 30.4946 30.8755 30.8717 30.8755 35.5958C30.8755 36.7999 31.1612 37.9478 31.6428 38.9972L37.2519 43.6712C37.8856 43.8294 38.5386 43.9375 39.2197 43.9375C44.6785 43.9375 47.8425 39.9411 57.7783 21.3971C58.427 20.1358 59 18.7735 59 17.355C59 14.8141 56.7149 13 54.2443 13Z" fill="#4B4A56"></path></svg>
+              <h3 class="skill-title">Dynamic Content Creator</h3>
+              <p class="skill-description">My wide range of skills allows me to bring you a one-stop shop for your content needs, be they writing, image generation, or logo design. </p>
+          </div>
+      </div>
+  </section>
+  <section class="about-me-section" id="about">
+   <div class="about-me-content-container">
+       <div class="about-me-flex-container1">
+           <span class="section-spanner"></span>
+           <h2 class="about-me-header">About Me</h2>
+           <p class="about-me-paragraph">Hey, my name is Caleb. I'm a Front End Developer from Owensboro, Kentucky.</p>
+           <p class="about-me-paragraph">I primarily work with with vanilla HTML, CSS, Javascript, and PHP. However, as my projects show, I am quick to adapt to libraries and frameworks, and I have exposure to Vue, React, and Bootstrap.  </p>
+           <p class="about-me-paragraph">Whether you need a website or a web application, I'm ready to deliver high-quality solutions that meet your needs. Let's connect and make the web a more functional and visually appealing place together!</p>
+           <a id="back-to-top" href="#" class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+            </a>
+       </div>
+       <div class="about-me-flex-container2">
+           <div class="about-me-img-container">
+               <img src="./Sandbox/nyc.webp" alt="profilephoto">
+           </div>
+       </div>
+   </div>
+</section>
+<section class="project-section" id="projects">
+    <div class="project-section-container">
+        <span class="section-span-right"></span>
+        <h2 class="project-header">Projects</h2>
+        <div class="project-container">
+            <img src="./Sandbox/tent.webp" alt="tentrental">
+            <div class="project-text-container">
+                <h2 class="project-title">Rent-a-Tent</h2>
+                <p class="project-text">A website I built for a small rental tent business in Owensboro, Kentucky.  </p>
+                <p class="project-text">Technologies include vanilla HTML, CSS, and Swiper.js. Initially used PHP for email functionality, but switched to Netlify form submission upon deployment. </p>
+                <div class="project-link-wrapper">
+                    <a href="https://www.rent-a-tent-owbky.com" class="project-link link1">View Site</a>
+                    <a href="https://github.com/calebepley93/rent-a-tent" class="project-link link2">See Code</a>
+                </div>
+            </div>
+        </div>
+        <div class="project-container">
+            <img src="./Sandbox/realty.webp" alt="tentrental" class="project-img">
+            <div class="project-text-container">
+                <h2 class="project-title">Phoenix Dream Realty</h2>
+                <p class="project-text">A mock landing page for a real estate website and customizable Wordpress theme. </p>
+                <p class="project-text">Coded in vanilla HTML, CSS, and Javascript. Additional technologies used include Swiper.js and Vue.js. </p>
+                <div class="project-link-wrapper">
+                    <a href="https://calebepley93.github.io/PhoenixDreamRealEstate/" class="project-link link1">View Site</a>
+                    <a href="https://github.com/calebepley93/PhoenixDreamRealEstate" class="project-link link2">See Code</a>
+                </div>
+            </div>
+        </div>
+        <div class="project-container">
+            <img src="./Sandbox/hemphaul.webp" alt="hemphaul">
+            <div class="project-text-container">
+                <h2 class="project-title">Hemp Haul</h2>
+                <p class="project-text">A mock front-end for an ecommerce site with full cart functionality, featuring an original logo and content. </p>
+                <p class="project-text">Coded in vanilla HTML, CSS, and Javascript, other technologies used include Swiper.js and jQuery. </p>
+                <div class="project-link-wrapper">
+                    <a href="https://calebepley93.github.io/HempHaulECommerceProject/" class="project-link link1">View Site</a>
+                    <a href="https://github.com/calebepley93/HempHaulECommerceProject" class="project-link link2">See Code</a>
+                </div>
+            </div>
+        </div>
+        <div class="projects-see-more">
+            <a href="#">See More</a>
+        </div>
+    </div>
+</section>
+<section class="technologies">
+    <div class="technologies-container">
+        <span class="section-spanner"></span>
+        <h2 class="about-me-header">Technologies</h2>
+        <div class="tech-icon-container">
+            <div class="tech-icon">
+                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 20 20" fill="#3287f5">
+
+                    <rect x="0" fill="none" />
+                    
+                    <g>
+                    
+                    <path d="M4 16v-2H2v2H1v-5h1v2h2v-2h1v5H4zM7 16v-4H5.6v-1h3.7v1H8v4H7zM10 16v-5h1l1.4 3.4h.1L14 11h1v5h-1v-3.1h-.1l-1.1 2.5h-.6l-1.1-2.5H11V16h-1zM19 16h-3v-5h1v4h2v1zM9.4 4.2L7.1 6.5l2.3 2.3-.6 1.2-3.5-3.5L8.8 3l.6 1.2zm1.2 4.6l2.3-2.3-2.3-2.3.6-1.2 3.5 3.5-3.5 3.5-.6-1.2z"/>
+                    
+                    </g>
+                    
+                    </svg>
+            </div>
+            <div class="tech-icon">
+                <svg fill="#3287f5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="_x32_" viewBox="0 0 512 512" xml:space="preserve">
+                    <g>
+                        <path class="st0" d="M378.413,0H208.297h-13.182L185.8,9.314L57.02,138.102l-9.314,9.314v13.176v265.514   c0,47.36,38.528,85.895,85.896,85.895h244.811c47.353,0,85.881-38.535,85.881-85.895V85.896C464.294,38.528,425.766,0,378.413,0z    M432.497,426.105c0,29.877-24.214,54.091-54.084,54.091H133.602c-29.884,0-54.098-24.214-54.098-54.091V160.591h83.716   c24.885,0,45.077-20.178,45.077-45.07V31.804h170.116c29.87,0,54.084,24.214,54.084,54.092V426.105z"/>
+                        <path class="st0" d="M169.574,268.949c5.837,0,9.104,2.171,12.499,6.786c2.709,3.805,5.432,5.167,8.825,5.167   c5.028,0,9.105-3.673,9.105-8.965c0-2.171-0.684-4.078-1.774-5.977c-4.622-8.288-14.802-14.669-28.655-14.669   c-16.171,0-28.124,7.603-33.012,22.685c-1.899,6.11-2.57,10.865-2.57,24.989c0,14.125,0.67,18.881,2.57,24.99   c4.888,15.081,16.841,22.685,33.012,22.685c13.853,0,24.033-6.382,28.655-14.67c1.09-1.899,1.774-3.805,1.774-5.976   c0-5.3-4.078-8.965-9.105-8.965c-3.393,0-6.116,1.361-8.825,5.16c-3.394,4.622-6.662,6.794-12.499,6.794   c-7.471,0-11.814-3.938-13.853-10.187c-1.089-3.393-1.494-6.654-1.494-19.83c0-13.175,0.406-16.436,1.494-19.829   C157.76,272.887,162.103,268.949,169.574,268.949z"/>
+                        <path class="st0" d="M255.149,289.595l-4.888-0.684c-10.725-1.494-14.398-5.02-14.398-10.187c0-5.837,4.343-9.915,12.498-9.915   c5.698,0,11.409,1.634,15.892,3.805c1.899,0.95,3.938,1.494,5.837,1.494c4.888,0,8.7-3.666,8.7-8.693   c0-3.261-1.494-5.977-4.762-8.016c-5.432-3.394-15.612-6.11-25.806-6.11c-19.97,0-32.733,11.269-32.733,28.25   c0,16.304,10.32,25.13,29.2,27.713l4.901,0.677c10.99,1.494,14.258,4.888,14.258,10.32c0,6.389-5.306,10.872-15.082,10.872   c-6.787,0-12.219-1.767-19.83-5.977c-1.634-0.956-3.672-1.634-5.837-1.634c-5.166,0-8.965,3.938-8.965,8.832   c0,3.254,1.634,6.382,4.748,8.42c6.116,3.799,16.031,7.876,29.074,7.876c24.032,0,36.266-12.358,36.266-29.067   C284.223,300.865,274.307,292.311,255.149,289.595z"/>
+                        <path class="st0" d="M338.697,289.595l-4.888-0.684c-10.738-1.494-14.398-5.02-14.398-10.187c0-5.837,4.344-9.915,12.484-9.915   c5.712,0,11.423,1.634,15.892,3.805c1.913,0.95,3.952,1.494,5.851,1.494c4.887,0,8.686-3.666,8.686-8.693   c0-3.261-1.494-5.977-4.748-8.016c-5.432-3.394-15.626-6.11-25.806-6.11c-19.969,0-32.733,11.269-32.733,28.25   c0,16.304,10.32,25.13,29.2,27.713l4.888,0.677c11.004,1.494,14.258,4.888,14.258,10.32c0,6.389-5.292,10.872-15.068,10.872   c-6.8,0-12.232-1.767-19.829-5.977c-1.634-0.956-3.673-1.634-5.851-1.634c-5.153,0-8.965,3.938-8.965,8.832   c0,3.254,1.634,6.382,4.762,8.42c6.117,3.799,16.032,7.876,29.06,7.876c24.047,0,36.266-12.358,36.266-29.067   C367.758,300.865,357.843,292.311,338.697,289.595z"/>
+                    </g>
+                    </svg>
+            </div>
+            <div class="tech-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#3287f5" version="1.1"  viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                    <g id="5151e0c8492e5103c096af88a51f17e3">
+                    <path display="inline" d="M482.585,147.869v216.113c0,14.025-7.546,27.084-19.672,34.143L275.665,506.241   c-5.989,3.474-12.782,5.259-19.719,5.259c-6.838,0-13.649-1.785-19.639-5.259l-62.521-36.99c-9.326-5.207-4.775-7.059-1.692-8.128   c12.454-4.322,14.973-5.318,28.268-12.863c1.387-0.793,3.216-0.483,4.647,0.343l48.031,28.519c1.741,0.981,4.2,0.981,5.801,0   l187.263-108.086c1.744-0.996,2.862-2.983,2.862-5.053V147.869c0-2.117-1.118-4.094-2.906-5.163L258.874,34.716   c-1.726-1.01-4.03-1.01-5.768,0L65.962,142.736c-1.818,1.04-2.965,3.079-2.965,5.133v216.113c0,2.069,1.146,4.009,2.954,4.99   l51.299,29.654c27.829,13.903,44.875-2.485,44.875-18.956V166.309c0-3.017,2.423-5.396,5.439-5.396h23.747   c2.969,0,5.429,2.378,5.429,5.396v213.362c0,37.146-20.236,58.454-55.452,58.454c-10.816,0-19.347,0-43.138-11.713l-49.098-28.287   c-12.133-6.995-19.638-20.117-19.638-34.143V147.869c0-14.043,7.505-27.15,19.638-34.135L236.308,5.526   c11.85-6.701,27.608-6.701,39.357,0l187.248,108.208C475.039,120.748,482.585,133.826,482.585,147.869z M321.171,343.367   c-55.88,0-68.175-14.048-72.294-41.836c-0.477-2.966-3.018-5.175-6.063-5.175h-27.306c-3.382,0-6.096,2.703-6.096,6.104   c0,35.56,19.354,77.971,111.759,77.971c66.906,0,105.269-26.339,105.269-72.343c0-45.623-30.827-57.76-95.709-66.35   c-65.579-8.678-72.243-13.147-72.243-28.508c0-12.661,5.643-29.581,54.216-29.581c43.374,0,59.365,9.349,65.94,38.576   c0.579,2.755,3.083,4.765,5.923,4.765h27.409c1.7,0,3.315-0.73,4.47-1.943c1.158-1.28,1.773-2.947,1.611-4.695   c-4.241-50.377-37.713-73.844-105.354-73.844c-60.209,0-96.118,25.414-96.118,68.002c0,46.217,35.729,59,93.5,64.702   c69.138,6.782,74.504,16.883,74.504,30.488C384.589,333.299,365.655,343.367,321.171,343.367z">
+                    </path>
+                    </g>
+                    </svg>
+            </div>
+            <div class="tech-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#3287f5" version="1.1" id="Capa_1" viewBox="0 0 48 48" xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M47.988,21.94c-0.006-0.091-0.023-0.179-0.054-0.266c-0.011-0.032-0.019-0.063-0.033-0.094    c-0.048-0.103-0.108-0.199-0.191-0.283c-0.001-0.002-0.002-0.003-0.004-0.005L42,15.586V10c0-0.021-0.011-0.04-0.012-0.061    c-0.006-0.089-0.023-0.175-0.052-0.259c-0.011-0.032-0.019-0.062-0.033-0.093c-0.049-0.106-0.11-0.207-0.196-0.293l-9-9    c-0.086-0.086-0.186-0.147-0.292-0.196c-0.031-0.014-0.063-0.023-0.095-0.034c-0.083-0.028-0.168-0.045-0.256-0.051    C32.042,0.011,32.022,0,32,0H7C6.447,0,6,0.448,6,1v14.586l-5.706,5.706c-0.002,0.002-0.002,0.003-0.004,0.005    c-0.083,0.083-0.143,0.18-0.191,0.283c-0.014,0.03-0.022,0.062-0.033,0.094c-0.03,0.086-0.048,0.174-0.054,0.266    C0.011,21.961,0,21.979,0,22v19c0,0.552,0.447,1,1,1h5v5c0,0.552,0.447,1,1,1h34c0.553,0,1-0.448,1-1v-5h5c0.553,0,1-0.448,1-1V22    C48,21.979,47.989,21.961,47.988,21.94z M44.586,21H42v-2.586L44.586,21z M38.586,9H33V3.414L38.586,9z M8,2h23v8    c0,0.552,0.447,1,1,1h8v5v5H8v-5V2z M6,18.414V21H3.414L6,18.414z M40,46H8v-4h32V46z M46,40H2V23h5h34h5V40z"/>
+                            <polygon points="25.802,30.843 22.198,30.843 22.198,25.964 20.175,25.964 20.175,38 22.198,38 22.198,32.662 25.802,32.662     25.802,38 27.825,38 27.825,25.964 25.802,25.964   "/>
+                            <path d="M17.378,26.72c-0.323-0.277-0.688-0.473-1.097-0.586c-0.408-0.113-0.805-0.17-1.19-0.17H11.76V38h2.006v-4.828h1.428    c0.419,0,0.827-0.074,1.224-0.221c0.397-0.147,0.748-0.374,1.054-0.68c0.306-0.306,0.552-0.688,0.74-1.148    c0.187-0.459,0.281-0.994,0.281-1.606c0-0.68-0.105-1.247-0.315-1.7S17.701,26.998,17.378,26.72z M16.095,31.005    c-0.306,0.334-0.697,0.501-1.173,0.501h-1.156v-3.825h1.156c0.476,0,0.867,0.147,1.173,0.442c0.306,0.295,0.459,0.765,0.459,1.411    C16.554,30.18,16.401,30.67,16.095,31.005z"/>
+                            <path d="M35.891,26.72c-0.323-0.277-0.688-0.473-1.097-0.586c-0.408-0.113-0.805-0.17-1.19-0.17h-3.332V38h2.006v-4.828h1.428    c0.419,0,0.827-0.074,1.224-0.221c0.397-0.147,0.748-0.374,1.054-0.68c0.306-0.306,0.553-0.688,0.739-1.148    c0.187-0.459,0.28-0.994,0.28-1.606c0-0.68-0.105-1.247-0.314-1.7S36.215,26.998,35.891,26.72z M34.608,31.005    c-0.306,0.334-0.697,0.501-1.173,0.501h-1.156v-3.825h1.156c0.476,0,0.867,0.147,1.173,0.442c0.306,0.295,0.459,0.765,0.459,1.411    C35.067,30.18,34.914,30.67,34.608,31.005z"/>
+                        </g>
+                    </g>
+                    </svg>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact-section" id="contact">
+    <div class="contact-section-container">
+        <form action="" class="contact-form">
+            <p class="contact-alert">Your message has been sent, thanks!</p>
+            <h2 class="contact-header">Contact Me</h2>
+            <input type="text" required="" placeholder="Your Name">
+            <input type="email" required="" placeholder="Your Email Address">
+            <textarea required="" placeholder="Your Message"></textarea>
+            <button class="home-contact-btn" type="submit" style="font-family: Roboto;">Send</button>
+        </form>
+    </div>
+</section>
+<footer class="footer">
+    <p>Caleb Epley © 2023 | calebepley.com</p>
+</footer>
+</body>
+<script src="main.js"></script>
+</html>
