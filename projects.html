@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb Epley - Web Developer</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+</head>
+<body>
+    <header class="page-header">
+        <nav class="header-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="./index.html">Home</a></li>
+                <li class="nav-item"><a href="./index.html#about">About</a></li>
+                <li class="nav-item"><a href="./index.html#projects">Projects</a></li>
+                <li class="nav-item"><a href="./index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger-menu">
+                <div class="hamburger-menu__line line-1"></div>
+                <div class="hamburger-menu__line line-2"></div>
+                <div class="hamburger-menu__line line-3"></div>
+            </div>
+        </nav>
+    </header>
+    <div id="overlay-menu" class="overlay-menu">
+        <ul class="overlay-menu__list">
+            <li class="overlay-menu-item"><a href="./index.html">Home</a></li> 
+            <li class="overlay-menu-item"><a href="./index.html#about">About</a></li>
+            <li class="overlay-menu-item"><a href="./index.html#projects">Projects</a></li>
+            <li class="overlay-menu-item"><a href="./index.html#contact">Contact</a></li>
+        </ul>
+    </div>
+    <section class="project-section" id="projects">
+        <div class="project-section-container">
+            <span class="section-span-right span-project-page"></span>
+            <h2 class="project-header left">Projects</h2>
+            <div class="project-grid-container">
+                <div class="project-container column">
+                    <img src="./Sandbox/tent.webp" alt="tentrental">
+                    <div class="project-text-container stretch">
+                        <h2 class="project-title">Rent-a-Tent</h2>
+                        <p class="project-text">A website I built for a small rental tent business in Owensboro, Kentucky.  </p>
+                        <p class="project-text">Technologies include vanilla HTML, CSS, and Swiper.js. Initially used PHP for email functionality, but switched to Netlify form submission upon deployment. </p>
+                        <div class="project-link-wrapper">
+                            <a href="https://www.rent-a-tent-owbky.com" class="project-link link1">View Site</a>
+                            <a href="https://github.com/calebepley93/rent-a-tent" class="project-link link2">See Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container column">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0lun5tRoxko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="project-text-container stretch">
+                        <h2 class="project-title">Phoenix Dream Realty</h2>
+                        <p class="project-text">A mock landing page for a real estate website and customizable Wordpress theme. </p>
+                        <p class="project-text">Coded in vanilla HTML, CSS, and Javascript. Additional technologies used include Swiper.js and Vue.js. </p>
+                        <div class="project-link-wrapper">
+                            <a href="https://calebepley93.github.io/PhoenixDreamRealEstate/" class="project-link link1">View Site</a>
+                            <a href="https://github.com/calebepley93/PhoenixDreamRealEstate" class="project-link link2">See Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container column">
+                    <img src="./Sandbox/hemphaul.webp" alt="hemphaul">
+                    <div class="project-text-container stretch">
+                        <h2 class="project-title">Hemp Haul</h2>
+                        <p class="project-text">A mock front-end for an ecommerce site with full cart functionality, featuring an original logo and content. </p>
+                        <p class="project-text">Coded in vanilla HTML, CSS, and Javascript, other technologies used include Swiper.js and jQuery. </p>
+                        <div class="project-link-wrapper">
+                            <a href="https://calebepley93.github.io/HempHaulECommerceProject/" class="project-link link1">View Site</a>
+                            <a href="https://github.com/calebepley93/HempHaulECommerceProject" class="project-link link2">See Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container column">
+                    <img src="./Imgs/porfolio2.webp" alt="tentrental">
+                    <div class="project-text-container stretch">
+                        <h2 class="project-title">Portfolio Page</h2>
+                        <p class="margin">I built my portfolio using HTML, CSS, and Javascript.</p>
+                        <div class="project-link-wrapper">
+                            <a href="https://www.rent-a-tent-owbky.com" class="project-link link1">View Site</a>
+                            <a href="https://github.com/calebepley93/rent-a-tent" class="project-link link2">See Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Caleb Epley © 2023 | calebepley.com</p>
+    </footer>
+</body>
+<script>
+
+    let hamburgerMenu = document.querySelector('.hamburger-menu');
+let overlayMenu = document.querySelector('#overlay-menu');
+
+hamburgerMenu.addEventListener('click', function() {
+    hamburgerMenu.classList.toggle('change');
+    if (overlayMenu.classList.contains('show')) {
+        overlayMenu.classList.remove('show');
+        document.body.style.overflow = 'auto';
+    } else {
+        overlayMenu.classList.add('show');
+        document.body.style.overflow = 'hidden';
+    }
+});
+
+window.addEventListener('resize', function() {
+    if (window.innerWidth > 768) {
+        if (overlayMenu.classList.contains('show')) {
+            overlayMenu.classList.remove('show');
+            hamburgerMenu.classList.remove('change');
+        }
+    }
+});
+
+let overlayMenuItems = document.querySelectorAll('.overlay-menu-item a');
+
+overlayMenuItems.forEach(item => {
+    item.addEventListener('click', function(event) {
+        event.preventDefault(); 
+        let targetSection = document.querySelector(this.getAttribute('href')); 
+        targetSection.scrollIntoView({behavior: "smooth"}); 
+
+        if (overlayMenu.classList.contains('show')) {
+            overlayMenu.classList.remove('show');
+            hamburgerMenu.classList.remove('change');
+            document.body.style.overflow = 'auto'; 
+        }
+    });
+});
+
+
+</script>
+</html>
