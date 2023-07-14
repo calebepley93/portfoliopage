@@ -116,21 +116,7 @@ window.addEventListener('resize', function() {
     }
 });
 
-let overlayMenuItems = document.querySelectorAll('.overlay-menu-item a');
 
-overlayMenuItems.forEach(item => {
-    item.addEventListener('click', function(event) {
-        event.preventDefault(); 
-        let targetSection = document.querySelector(this.getAttribute('href')); 
-        targetSection.scrollIntoView({behavior: "smooth"}); 
-
-        if (overlayMenu.classList.contains('show')) {
-            overlayMenu.classList.remove('show');
-            hamburgerMenu.classList.remove('change');
-            document.body.style.overflow = 'auto'; 
-        }
-    });
-});
 
 
 </script>

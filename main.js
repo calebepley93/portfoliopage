@@ -25,10 +25,20 @@ let overlayMenuItems = document.querySelectorAll('.overlay-menu-item a');
 
 overlayMenuItems.forEach(item => {
     item.addEventListener('click', function(event) {
-        event.preventDefault(); 
-        let targetSection = document.querySelector(this.getAttribute('href')); 
-        targetSection.scrollIntoView({behavior: "smooth"}); 
+        let href = this.getAttribute('href');
 
+        // Only prevent the default navigation and scroll to a section on the current page
+        // if the href starts with '#'
+        if (href.startsWith('#')) {
+            let targetSection = document.querySelector(href);
+
+            if (targetSection !== null) { // Check if the target section exists on the current page
+                event.preventDefault();
+                targetSection.scrollIntoView({behavior: "smooth"}); 
+            }
+        }
+
+        // Close the overlay menu after a link is clicked
         if (overlayMenu.classList.contains('show')) {
             overlayMenu.classList.remove('show');
             hamburgerMenu.classList.remove('change');
@@ -36,6 +46,10 @@ overlayMenuItems.forEach(item => {
         }
     });
 });
+
+
+
+
 
 let navMenuItems = document.querySelectorAll('.nav-item a');
 
