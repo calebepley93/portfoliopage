@@ -387,6 +387,10 @@ a {
     margin-right: var(--big-margin-right);
 }
 
+.project-container img, .project-text-container {
+    flex: 1;
+}
+
 .section-span-right {
     margin-left: auto;
     background: linear-gradient(90deg, #3287f5, #58a6ff);
@@ -429,6 +433,7 @@ a {
     flex-direction: column;
     padding-top: 0;
     padding-bottom: 0;
+    max-width: 450px;
 }
 
 
@@ -456,6 +461,8 @@ a {
 .column img {
     width: 100%;
     height: auto;
+    object-fit: cover;
+    overflow: clip; 
 }
 
 .project-text-container {
